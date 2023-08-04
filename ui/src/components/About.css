@@ -1,0 +1,181 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    outline: none;
+    font-size: 100%;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+p{
+    font-family: comfortaa, cursive;
+    color: #555555;
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 19px;
+}
+
+img{
+    width: 80%;
+    justify-content: center;
+    text-align: center;
+}
+
+.page-title {
+    position: relative;
+    padding: 253px 0 263px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+    overflow: hidden;
+}
+
+.page-title h1 {
+    position: relative;
+    display: block;
+    font-size: 48px;
+    color: #fff;
+    line-height: 50px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.page-title .bread-crumb {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+ol, ul {
+    padding-left: 2rem;
+}
+ul, li {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.page-title .bread-crumb li {
+    position: relative;
+    font-size: 18px;;
+    line-height: 30px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: capitalize;
+    cursor: default;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+a:hover, a:focus, a:visited {
+    text-decoration: none;
+    outline: none;
+    color: rgb(49,0,174);
+}
+
+
+/* img, svg {
+    vertical-align: middle;
+} */
+
+img {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
+img {
+    /* vertical-align: middle; */
+    border-style: none;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.faq-section .image-column .image {
+    /* position: relative;
+    margin-bottom: 0;
+    margin-left: -270px; */
+    text-align: center;
+}
+
+.sec-title .subtitle{
+    font-weight: 600;
+    color: rgb(49,0,174);
+}
+
+.sec-title h2 {
+    position: relative;
+    display: block;
+    color: rgb(34,34,34);
+    font-weight: 700;
+    padding: 10px 0 20px;
+}
+.accordion-box .block .acc-btn {
+    position: relative;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: #fff;
+    font-size: 20px;
+    padding: 15px 25px 15px;
+    padding-right: 50px;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+.accordion-box .block .acc-btn {
+    color: #028aa2;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.active {
+    background:#ffffff;
+    border-color: 1px solid #c7c4c4;
+    font-family: 'Comfortaa', cursive;
+    height: auto;
+}
+
+.accordion-box .block .icon {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    height: 30px;
+    width: 30px;
+    font-size: 16px;
+    line-height: 30px;
+    color: rgb(49,0,174);
+    text-align: center;
+    transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+}
+p{
+    margin-top:0;
+    margin-bottom: 1rem;
+}
+
+p, .text{
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #555555;
+    margin: 0;
+}
+
+.accordion-box .block .content{
+    display: block;
+}
+*, ::after, ::before{
+    box-sizing: border-box;
+}

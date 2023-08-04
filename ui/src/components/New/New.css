@@ -1,0 +1,148 @@
+*{
+    background-color: rgb(206,171,103);
+    color: rgb(74,37,29);
+    justify-content: center;
+    text-align: center;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 5rem;
+    line-height: 0.5rem;
+    
+}
+
+.head p{
+    margin-top: 10px;
+    font-size: 100px;
+    text-align: center;
+}
+
+
+.logo img{
+    width: 30rem;
+    align-items: center;
+}  
+
+.logo{
+    text-align: center;
+}
+
+.icon p{
+    font-weight: bold;
+    font-size: 3rem;
+    display: inline-block;
+    
+
+}
+.add p{
+    font-size: 1.3rem;
+    
+}
+
+.add h2{
+    text-align: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: rgb(74,37,29);
+    font-weight: bold;
+}
+
+i{
+    font-size: 2.5rem;
+    padding: 3px;
+    display: flex;
+    margin-left: 10px;
+}
+
+.image-product{
+    width: 37rem
+}
+
+@media (max-width: 1400px) {
+    .icon p{
+        font-size: 2.5rem;
+    }
+    i{
+        font-size: 2.5rem;
+    }
+    .add p{
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    .icon p{
+        font-size: 1.5rem;
+    }
+    i{
+        font-size: 2.5rem;
+    }
+    .add p{
+        font-size: 1.1rem;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:1023.98px ) {
+    h1{
+        font-weight: bold;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 1.5rem;
+        line-height: 0.5rem;
+        /* position: absolute; */
+        
+    }
+    .head p{
+        margin-top: 10px;
+        font-size: 30px;
+        text-align: center;
+        /* position: absolute; */
+    }
+    i{
+        font-size: 1.3rem;
+        padding: 3px;
+        display: flex;
+        margin-left: 6px;
+    }
+    .image-product{
+        height:400px;
+    }
+}
+
+
+
+@media only screen and (max-width: 767.98px) {
+    .mb-logo-sz{
+        width:100px;
+        height:100px;
+        padding-top: 10px;
+    }
+
+    h1{
+        font-weight: bold;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 1.5rem;
+        line-height: 0.5rem;
+        /* position: absolute; */
+        
+    }
+    .head p{
+        margin-top: 10px;
+        font-size: 30px;
+        text-align: center;
+        /* position: absolute; */
+    }
+    i{
+        font-size: 1rem;
+        padding: 3px;
+        display: flex;
+        margin-left: 6px;
+    }
+    .column-rev{
+        flex-direction: column-reverse;
+    }
+}
