@@ -1,10 +1,10 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
-// import Card from "./components/Card";
+import Card from "./components/Card";
 // import Policy from "./components/Policy";
 // import Condition from "./components/Condition";
 // import Cancellation from "./components/Cancellation";
-import About from "./components/About";
+// import About from "./components/About";
 // import Contect from "./components/Contect";
 // import New from "./components/New/New";
 // import Contect from "./components/ContactUs";
@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <Navbar />
-      {/* <div className="row">
+      <div className="row">
         <div className="col-md-3">
           <Card />
         </div>
@@ -38,11 +38,11 @@ function App() {
         <div className="col-md-3">
           <Card />
         </div>
-      </div> */}
+      </div>
       {/* <Policy/> */}
       {/* <Condition/> */}
       {/* <Cancellation/> */}
-      <About/>
+      {/* <About/> */}
       {/* <Contect/> */}
       {/* <New></New> */}
     </>
