@@ -1,0 +1,91 @@
+body{
+    background-color: #ecbe36 !important;
+}
+h1{
+    color: rgb(241, 87, 16) !important;
+    padding-top: 20px;
+}
+
+form input{
+    margin: 10px;
+    /* padding-right: 5rem; */
+    /* margin-left: 100px; */
+    border: white 1px;
+    outline: none;
+    width: 40%;
+    height: 30px;
+    border-radius: 5px;
+
+    
+}
+
+.redio{
+   margin-top: -10px
+
+}
+
+button{
+    background: rgb(241, 87, 16);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 40px 8px 40px ;
+    margin: 30px 60px 30px 60px !important;
+    font-weight: bold;
+}
+
+.container-2{
+    margin-left: 15%;
+}
+.container-3{
+    margin-left: 15%;
+}
+
+textarea{
+    width: 40%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+@media only screen and (min-width:768px) and (max-width:1023.98px ) {
+    form input{
+        margin: 10px;
+        border: white 1px;
+        outline: none;
+        width: 80%;
+        height: 30px;
+        border-radius: 5px;
+    }
+    textarea{
+        width: 80%;
+        border: none;
+        outline: none;
+        border-radius: 10px;
+    }
+    
+    
+}
+
+
+@media only screen and (max-width: 767.98px) {
+    form input{
+        margin: 10px;
+        border: white 1px;
+        outline: none;
+        width: 80%;
+        height: 30px;
+        border-radius: 5px;
+    }
+    textarea{
+        width: 80%;
+    }
+    .container-2{
+        margin-left: 5%;
+    }
+    .container-3{
+        margin-left: 5%;
+    }
+    
+}
+

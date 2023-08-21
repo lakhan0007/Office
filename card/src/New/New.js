@@ -47,8 +47,7 @@ export default function New() {
             </div>
             <div className="add">
               <p>
-                <b> Showroom Address : </b> 101 Ground Floor, Gurukripa Enclave,
-                pump, <br /> Near Old Ramgarh Mod Bus Stand , IndusInd Bank,
+                <b> Showroom Address : </b> 101 Ground Floor, Gurukripa Enclave, <br /> Near Old Ramgarh Mod Bus Stand , IndusInd Bank,
                 302002, JAIPUR
               </p>
 

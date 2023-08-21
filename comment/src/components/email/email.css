@@ -1,0 +1,42 @@
+.content{
+    width:65%;
+    margin: 50px auto;
+    /* background: rgb(209, 205, 205); */
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.3);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.content h1{
+    color: rgb(255, 183, 0);
+    padding-top: 10%;
+}
+
+.number{
+    background-color: #00466b;
+    color: white;
+    width: 100px;
+    text-align: center !important; 
+    padding: 8px;
+    border-radius: 5px;
+    letter-spacing: 4px;
+    margin: 50px auto;
+    
+}
+
+
+p{
+    text-align: justify;
+}
+
+@media only screen and (max-width: 767.98px){
+    .content{
+        width: 100%;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:1023.98px ) {
+    .content{
+        width: 90%;
+    }
+}
