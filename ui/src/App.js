@@ -7,8 +7,9 @@ import "./App.css";
 // import About from "./components/About";
 // import Contect from "./components/Contect";
 // import New from "./components/New/New";
-import Form from "./components/form/form";
+// import Form from "./components/form/form";
 // import Contect from "./components/ContactUs";
+import Model from "./model";
 
 function App() {
   return (
@@ -46,7 +47,8 @@ function App() {
       {/* <About/> */}
       {/* <Contect/> */}
       {/* <New></New> */}
-      <Form/> 
+      {/* <Form/>  */}
+      <Model/>
     </>
   );
 }
