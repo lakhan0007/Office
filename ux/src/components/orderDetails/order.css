@@ -1,0 +1,105 @@
+body{
+    background: rgb(196, 196, 196);
+
+}
+
+.box{
+    background: white;
+    box-shadow: 3px 3px 5px rgb(219, 215, 215);
+   
+    border-radius: 5px;
+    
+    
+}
+
+h3{
+    padding: 5%;
+}
+p{
+    padding:30px 0px 0px 0px ;
+}
+
+.checkbox{
+    padding: 5%;
+    margin-top: -30px;
+}
+.checkbox input{
+    margin-top: 15px;
+    /* margin-top: -30px; */
+}
+
+.head-1{
+    margin: -12px 0 0 0;
+}
+.head-2{
+    margin: -25px 0 0 0;
+}
+
+
+.search{
+
+    margin-top: 10px;
+}
+.search input{
+    width: 80%;
+    border-radius: 2px;
+    border: 1px solid rgb(96, 90, 90);
+    height: 35px;
+}
+
+.search button{
+    height: 35px;
+    background: #2929ce;
+    border: none;
+    border-radius: 2px;
+    padding: 0px 20px;
+    margin-left: 1px;
+    color: white;
+}
+
+.box-1{
+    width: 98%;
+    background: white;
+    border-radius: 3px;
+    margin-left: 2px;
+    margin-top: 15px;
+}
+
+.img-3{
+    width: 110px;
+    padding: 10px;
+    display: flex;
+    
+}
+
+.order-content{
+    margin-left: -70px;
+    
+    /* line-height: -5px; */
+}
+.order-content-1{
+    margin-top: -15px;
+    
+   
+}
+.order-content-2{
+    margin-top: -35px;
+    
+   
+}
+.order-price{
+    /* margin-left: -70px; */
+    margin-top: -15px;
+}
+.order-addressp-1{
+    /* margin-left: -70px; */
+    margin-top: -15px;
+}
+
+.order-addressp-2{
+    margin-top: -40px;
+}
+.order-addressp-3{
+    color: #2929ce;
+    margin-top: -40px;
+}

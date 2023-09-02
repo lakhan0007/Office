@@ -1,0 +1,236 @@
+.sec-title h2 {
+    position: relative;
+    display: block;
+    color: var(--darkgrey);
+    font-weight: 700;
+    padding: 10px 0 20px;
+}
+.sec-title .subtitle {
+    color: rgb(49,0,174);
+    font-weight: 600;
+}
+img {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+    padding-left: 130px;
+    height: 600px;
+}
+
+@media (max-width: 990px) {
+
+    img{
+        padding-left: 0;
+        width: 100%;
+    }
+
+}
+    
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+img, svg {
+    vertical-align: middle;
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * 0);
+    margin-right: calc(-.5 * 1.5rem);
+    margin-left: calc(-.5 * 1.5rem );
+}
+.contact-form .form-group input[type="text"], .contact-form .form-group input[type="email"], .contact-form .form-group input[type="url"], .contact-form .form-group textarea, .contact-form .form-group select {
+    position: relative;
+    display: block;
+    width: 100%;
+    line-height: 19px;
+    padding: 20px;
+    background-color: #fff;
+    font-weight: 400;
+    height: 60px;
+    border: 1px solid rgba(0,0,0,0.1)   ;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+    border-radius: 38px; 
+    
+}
+.contact-form .form-group textarea {
+    height: 160px;
+    resize: none;
+    border-radius: 20px;
+}
+.contact-form .form-group button{
+    padding: 15px 50px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+.btn-style-one:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 93%;
+    height: 100%;
+    z-index: 1;
+    opacity: 1;
+    background-color: #028aa2;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+    border-radius: 44px;
+}
+.tb-style-one:hover::before{
+    left: -100%;
+}
+.btn-style-one {
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+    /* line-height: 30px; */
+    color: #fff;
+    /* padding: 11px 35px; */
+    font-weight: 700;
+    border-radius: 35px;
+    /* text-transform: capitalize; */
+    background-color: rgb(49,0,174);
+    overflow: hidden;
+    border: none;
+}
+
+.btn-style-one .txt {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+}
+
+.theme-btn {
+    cursor: pointer;
+    display: inline-block;
+    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.page-title {
+    position: relative;
+    padding: 253px 0 263px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+    overflow: hidden;
+}
+.page-title h1 {
+    position: relative;
+    display: block;
+    font-size: 48px;
+    color: #fff;
+    line-height: 50px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.page-title .bread-crumb {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+ol, ul {
+    padding-left: 2rem;
+}
+ul, li {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.page-title .bread-crumb li a {
+    color: #fff;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+a:hover, a:focus, a:visited {
+    text-decoration: none;
+    outline: none;
+    color: #028aa2;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #028aa2;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+.page-title .bread-crumb li {
+    position: relative;
+    font-size: 18px;
+    line-height: 30px;
+    color: #007bff;
+    font-weight: 700;
+    text-transform: capitalize;
+    cursor: default;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+.contact-page-section .contact-info .info-block p {
+    position: relative;
+    display: block;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+p, .text {
+    font-size: var(--font-16);
+    line-height: 30px;
+    font-weight: 400;
+    color: var(--grey);
+    margin: 0;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.contact-page-section .contact-info .info-block .inner .icon-box i {
+    font-size: 60px;
+    color: rgb(49,0,174);;
+}
+
+.flaticon {
+    font-family: "Flaticon";
+    font-weight: 400;
+}

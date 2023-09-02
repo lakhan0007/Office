@@ -1,0 +1,32 @@
+.icon-box{
+    padding: 50px 0 0 400px;
+    font-size: 30px;
+    color: rgb(130, 112, 112);
+
+}
+
+.content{
+    /* border: 1px solid black; */
+    border-radius: 2px 5px 5px 5px;
+    box-shadow: 5px 5px 5px;
+    width: 100px;
+    margin: -7px 0 0 420px;
+    text-align: center;
+    height: 70px;
+    background: rgb(220, 207, 207);
+    padding-top: 8px;
+}
+
+.content-1 button{
+    /* padding-right: px; */
+    color:rgb(61, 31, 31);
+    font-weight: bold;
+    border: none;
+    background-color: rgb(220, 207, 207);
+    
+    
+}
+
+.icon-box:hover{
+    
+}
